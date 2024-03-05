@@ -1,0 +1,413 @@
+:root{
+    font-size: 62.5%;
+    --background-color: #2F1F14;
+    --background2-color: #DBBCA1;
+    --background3-color: #655546;
+    --footer-color: #291600;
+}
+
+header{
+    width: 100%;
+    background-color: var(--background-color);
+}
+
+/* .logo-nav{
+    position: absolute;
+    top: 20px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 250px;
+} */
+
+.logo{
+    position: absolute;
+    top: 20px;
+    padding-left: 50px;
+}
+
+.navigation{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.navigation ul{
+    text-align: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+
+.navigation li{
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: ease-in-out 500ms;
+}
+
+.navigation li:hover{
+    background-color: var(--background2-color);
+    border-radius: 5px;
+    padding: 5px 2px;
+    color: var(--footer-color);
+    transition: ease-in-out 500ms;
+}
+
+.header-letters{
+    position: absolute;
+    top: 272px; 
+    width: 100%;
+}
+
+.lettering1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 5.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.lettering2 p{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.About{
+    background-color: var(--background2-color);
+    width: 100%;
+    padding: 30px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.coffee-photo img{
+    width: 713px;
+}
+
+.lettering3 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    color: var(--background-color);
+}
+
+.lettering4 p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 2.7rem;
+    color: var(--background-color);
+    margin-bottom: 40px;
+}
+
+.lettering5 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--background-color);
+    margin-bottom: 20px;
+}
+
+.read-more{
+    width: 200px;
+}
+
+.read-more button{
+    background-color: var(--background-color);
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 2.0rem;
+}
+
+.read-more button:hover{
+    background-color: var(--footer-color);
+    transition: ease-in-out 500ms;
+}
+
+.sponsors-section{
+    background-color: var(--background3-color);
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.Reviews{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.Reviews h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.Reviews img{
+    width: 60px;
+}
+
+.lettering6 p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 2.7rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.ratings{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.first-rating, .second-rating, .third-rating{
+    background-color: var(--background2-color);
+    width: 320px;
+    height: 200px;
+    border-radius: 18px;
+    padding: 20px 40px;
+}
+
+.align p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    text-align: center;
+    color: var(--background-color);
+    margin-bottom: 20px;
+}
+
+.align{
+    height: 130px;
+}
+
+.ratings a{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    color: #0A424F;
+}
+
+.Contact-site{
+    background-color: var(--footer-color);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.Contact-site h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 3.3rem;
+    color: #ffF;
+}
+
+.Contact-site p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.info-message{
+    width: 190px;
+}
+
+.Contact-site input{
+    width: 100px;
+    background-color: #fff;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+.Contact-site textarea{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+.Contact-site button{
+    background-color: var(--background2-color);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: var(--footer-color);
+    font-size: 1.5rem;
+}
+
+.Contact-site button:focus{
+    background-color: var(--background3-color);
+    color: var(--background2-color);
+}
+
+.site-map li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+    list-style: inside;
+}
+
+.logs{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.phone-no, .email-details{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.phone-no img, .email-details img{
+    width: 20px;
+}
+
+.phone-no a, .email-details a{
+    display: block;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+footer{
+    background-color: var(--background2-color);
+    padding: 20px 0;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--background-color);
+}
+
+@media only screen and (max-width: 1200px){
+    
+    .header-letters{
+        position: absolute;
+        top: 200px;
+    }
+    
+    
+    .lettering1 h1{
+        font-size: 5.5rem;
+    }
+        
+    .lettering2 p{
+        font-size: 2.0rem;
+    }
+
+    .About{
+        gap: 50px;
+    }
+    
+    .lettering4 p{
+        margin-bottom: 20px;
+    }
+
+    .coffee-photo img{
+        min-width: 250px;
+    }
+    
+    .align p{
+        font-size: 1.5rem;
+    }
+
+    .first-rating, .second-rating, .third-rating{
+       min-width: 270px;
+        min-height: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 960px){
+
+    body{
+        width: 100%;
+    }
+
+    header{
+        height: 350px;
+    }
+
+    .logo{
+        padding-left: 10px;
+    }
+    
+    .navigation{
+        top: 60px;
+    }
+    
+    .logo img{
+        width: 150px;
+    }
+    
+    .bg-coffee{
+        display: none;
+    }
+    
+    .navigation li{
+        font-size: 1.7rem;
+    }
+    
+    .header-letters{
+        top: 200px;
+    }
+    
+    .lettering1 h1{
+        font-size: 5.5rem;
+    }
+    
+    .lettering2 p{
+        font-size: 2.5rem;
+    }
+
+    .lettering3 h2{
+        font-size: 4.0rem;
+    }    
+    
+}
+
+@media only screen and (max-width: 900px){
+
+    body{
+        width: 100%;
+    }
+
+    .navigation{
+        padding-left: 40px;
+    }
+
+    .header-letters{
+        padding-left: 40px;
+    }
+    
+    .ratings{
+        gap: 10px;
+    }
+
+    .lettering3 h2{
+        font-size: 3.5rem;
+    }
+    
+}
